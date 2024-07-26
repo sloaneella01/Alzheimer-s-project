@@ -31,4 +31,5 @@ DATASET=data/alzheimer
 14. Run this command to see how it operates on an image from the cat folder.
 `imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/alzheimer/imagename.jpg outputname.jpg`
 
-[View a video explanation here](video link)
+
+[Alzheimers Detection Video](https://youtu.be/SVTekAno5cs)
